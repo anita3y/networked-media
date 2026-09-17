@@ -1,0 +1,53 @@
+p {
+    text-align: center;
+    /* I'm gonna use centered text mostly */
+}
+
+#clothes {
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+#dieter-rams {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#yiyi-movie {
+    margin-left: 400px;
+    margin-bottom: 190px;
+}
+
+#lamp-album {
+    margin-left: 450px;
+    margin-top: -80px;
+}
+
+#asap-qoute {
+    text-align: center;
+}
+
+#good-design {
+    margin-left: 250px;
+}
+
+#is-as {
+    margin-left: 350px;
+}
+
+#little-design {
+    margin-left: 400px;
+}
+
+#as-possible {
+    margin-left: 450px;
+}
+
+#lyrics {
+    margin-top: 10px;
+}
+
+#airbuds {
+    margin-left: 500px;
+}
