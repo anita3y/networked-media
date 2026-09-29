@@ -1,0 +1,21 @@
+/* Q: What is p when defining a rule in CSS? */
+/* A: selector, targets every thing in <p> in main file*/
+/* what is going to have the styled applied onto */
+
+p {
+  /* Q: What is the property that manipulates the horizontal size of the block? Write that property and give it a value of 60%*/
+  width: 60%;
+  /* Q: What are the other units of measurement we use in CSS? */
+  /* A: pixels (px), pt, em, %, rem (*/
+}
+
+/* To be completed as a class together: */
+/* Select "blue" class */
+.blue {
+  background-color: blue;
+}
+/* Select "main" id, attribute goes inside opening tag of */
+#main {
+  border: 2px solid red;
+  background-color: yellow;
+}
