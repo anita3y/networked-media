@@ -1,0 +1,15 @@
+/* setup for css */
+body{
+    height: 100%;
+    width: 100%;
+    /* remove scroll bars */
+    margin: 0;
+}
+
+#text{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    margin-top: 40px;
+    margin-left: 100px;
+}
