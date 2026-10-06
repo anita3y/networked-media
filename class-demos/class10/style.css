@@ -1,0 +1,31 @@
+/* setup for css */
+html, body{
+    /* vw, vh = viewport width, viewport height */
+    width: 100vw;
+    height:100vh;
+    padding: 10px;
+    /* remove scroll */
+    overflow: hidden;
+    /* to see whole border */
+    margin: 0;
+    /* change calc to use border-box to include margin, border, and padding */
+    box-sizing: border-box;
+}
+
+body{
+    border: 10px solid red;
+}
+
+.parent{
+    background-color: orange;
+    position: relative;
+}
+
+.child{
+    background-color: yellow;
+    position: absolute;
+    /* kind of like margin, psoiton from top of relative elemnet */
+    top: 0;
+    right: 33%;
+    z-index: -100;
+}
