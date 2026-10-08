@@ -1,0 +1,15 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+    /* setting font  */
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#garden{
+    padding: 5px
+}
+
