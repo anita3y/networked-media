@@ -1,0 +1,14 @@
+
+
+{# in order to access server data, need to use the variabl we apssed in server.js #}
+{# messagesArrayFromServer #}
+{% for singleMessage in messagesArrayFromServer %}
+<p>
+    <span>user:</span>
+    <span>{{ singleMessage.user }}</span>
+</p>
+<p>
+    <span>message:</span>
+    <span>{{ singleMessage.message }}</span>
+</p>
+{% endfor %}
