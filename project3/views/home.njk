@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>plant a flower</title>
+
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            finally, a permanent garden!
+        </h1>
+
+        <p> impermanence: we hate it, but would the rose be as beautiful if not ephemeral? </p>
+
+        {# heres the form: i ref'ed class 15 demo #}
+        <form method="POST" action="/plant">
+            <input type="text" name= "name" placeholder="your name">
+            <input type="text" name="note" placeholder="leave a note">
+            <input type="submit" value="plant">
+        </form>
+
+        {# the garden, after submit form #}
+        {# it loops through every flower server sends #}
+        
+        {% for flower in flowers %}
+
+        <div class="flower">
+{% if flower.type == "rose" %}
+<pre>
+    _
+ _( )_
+(_ @ _)
+  (_)
+   |
+  \|/
+</pre>
+{% endif %}
+
+{% if flower.type == "daisy" %}
+<pre>
+ \ | /
+-- @ --
+ / | \
+   |
+  \|/
+</pre>
+{% endif %}
+
+{% if flower.type == "bud" %}
+<pre>
+
+   ,
+  (@)
+   |
+  \|/
+</pre>
+{% endif %}
+
+        <p>
+            <span>{{ flower.name }}</span>
+            <span>{{ flower.note }}</span>
+
+        </p>
+        </div>
+        {% endfor %}
+    </body>
+
+</html>
